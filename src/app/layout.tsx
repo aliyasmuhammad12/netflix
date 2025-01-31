@@ -29,7 +29,12 @@ export default function RootLayout({
       <Head>
         <title>NetFlix</title>
       </Head>
-      <body className={`${geistSans.variable} ${geistMono.variable}`}>
+      <body className={`${geistSans.variable} ${geistMono.variable}`}
+      style={{
+        backgroundColor:"#141414",
+        
+      }}
+      >
         <Layout>{children}</Layout>
       </body>
     </html>

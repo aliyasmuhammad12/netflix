@@ -10,13 +10,42 @@ function Footer() {
         padding: "0 5rem 3rem,5rem",
       }}
     >
-      <Box>
-        <FB />
-        <Instagram />
-        <Twitter />
-        <Youtube />
+      <Box
+        sx={{
+          display: { sm: "flex" },
+          color: "white",
+          flexDirection: { md: "row" },
+          gap: "3rem",
+          marginBottom: "1rem",
+        }}
+      >
+        <FB
+          style={{
+            fontSize: "2rem",
+          }}
+        />
+        <Instagram
+          style={{
+            fontSize: "2rem",
+          }}
+        />
+        <Twitter
+          style={{
+            fontSize: "2rem",
+          }}
+        />
+        <Youtube
+          style={{
+            fontSize: "2rem",
+          }}
+        />
       </Box>
-      <Box>
+      <Box
+        sx={{
+          sm: "flex",
+          justifyContent: "space-between",
+        }}
+      >
         <Box>
           <Typography>Audio Description</Typography>
           <Typography>Inverstor Relationship</Typography>
@@ -41,7 +70,16 @@ function Footer() {
         </Box>
       </Box>
       <Box>
-        <Typography>Service Code</Typography>
+        <Typography
+          sx={{
+            border: "1px solid rgba(255,255,255,0.5)",
+            padding: ".2rem,.4rem",
+            my: "2rem",
+            width: "7rem",
+          }}
+        >
+          Service Code
+        </Typography>
       </Box>
       <Box>@ 1990-2025 Netflix, Inc.</Box>
     </Box>
