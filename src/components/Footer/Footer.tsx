@@ -14,7 +14,7 @@ function Footer() {
         sx={{
           display: { sm: "flex" },
           color: "white",
-          flexDirection: { md: "row" },
+          flexDirection: { md: 'row' },
           gap: "3rem",
           marginBottom: "1rem",
         }}
@@ -26,12 +26,12 @@ function Footer() {
         />
         <Instagram
           style={{
-            fontSize: "2rem",
+            fontSize: '2rem',
           }}
         />
         <Twitter
           style={{
-            fontSize: "2rem",
+            fontSize: '2rem',
           }}
         />
         <Youtube
