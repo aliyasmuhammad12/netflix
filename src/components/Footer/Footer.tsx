@@ -73,9 +73,9 @@ function Footer() {
         <Typography
           sx={{
             border: "1px solid rgba(255,255,255,0.5)",
-            padding: ".2rem,.4rem",
-            my: "2rem",
-            width: "7rem",
+            padding: '.2rem,.4rem',
+            my: '2rem',
+            width: '7rem',
           }}
         >
           Service Code
